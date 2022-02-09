@@ -1,0 +1,100 @@
+.mainContent {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+#addTodoArea{
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #FFCC99;
+}
+
+#listsArea{
+    width: 600px;
+    height: auto;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #FFFFCC;
+}
+/* 为什么盒子里面的盒子调整margin无效要调整外部盒子的padding才达到预期效果？ */
+
+#Heading{
+    width: 200px;
+    height: 80px;
+    margin: 5px auto;
+    text-align: center;
+    line-height: 80px;
+}
+
+#addTodo{
+    padding: 20px 40px;
+}
+
+#input{
+    outline-style: none ;
+    border: 1px solid #ccc; 
+    border-radius: 3px;
+    padding: 5px 5px;
+    width: 450px;
+    font-size: 15px;
+}
+
+#add{
+    padding: 5px 5px;
+    border-radius: 3px;
+    background-color: #99CCFF;
+}
+
+li{
+    padding: 5px;
+    margin: 5px 0px;
+    width: 510px;
+    border: 1px solid pink;
+    border-radius: 3px;
+    background-color: #CCFF99;
+}
+
+li .finishedBtn{
+    float: right;
+    border-radius: 3px;
+    margin-right: 3px;
+    background-color: #99CCFF;
+}
+
+li .delBtn{
+    float: right;
+    border-radius: 3px;
+    background-color: #FFB6C1;
+}
+
+#finishedArea{
+    width: 600px;
+    height: auto;
+    margin: 10px auto;
+    padding: 5px;
+
+    border-radius: 20px;
+    background-color: #99CCFF;
+}
+
+#clean {
+    height: 30px;
+    width: 520px;
+    margin: 0 auto;
+    background-color: #99CCFF;
+
+}
+
+span #cleanBtn{
+    float: right;
+    border-radius: 3px;
+    background-color: #CCFF99;
+}

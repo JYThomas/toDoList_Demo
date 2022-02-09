@@ -1,0 +1,57 @@
+<!--
+ * @Description: toDolist
+ * @Author: MorantJY
+ * @Date: 2022-02-05 21:38:26
+ * @LastEditors: MorantJY
+ * @LastEditTime: 2022-02-09 14:15:43
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morant's toDolist</title>
+    <link rel="stylesheet" href="./toDo.css">
+</head>
+<body onload="load()">
+    <div class="mainContent">
+        <div id="addTodoArea">
+            <div id="Heading">
+                <h3>My toDoList</h3>
+            </div>
+            <div id="addTodo">
+                <input type="text" id="input" placeholder="Input the to-do list">
+                <input type="button" id="add" value="Add">
+            </div>
+        </div>
+
+        <div id="listsArea">
+            <div id="Heading">
+                <h3>Wait to be done</h3>
+            </div>
+            <hr>
+            <ol></ol>
+        </div>
+
+        <div id="finishedArea">
+            <div id="Heading">
+                <h3>Finished</h3>
+            </div>
+            <hr>
+
+            <div id="finishedListsArea">
+                <ol></ol>
+                
+            </div>
+            <div id="clean">
+                <span><input type="button" value="clear" id="cleanBtn"></span>
+            </div>
+            
+
+        </div>
+    </div>
+    <!-- 页面渲染完DOM结点再编译js文件 -->
+    <script src="./index_toDo.js"></script>
+</body>
+</html>
